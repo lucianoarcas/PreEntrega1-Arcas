@@ -5,7 +5,7 @@ import "./NavBar.css"
 const NavBar = () => {
   return (
     <header>
-        <h1>Titulo Tienda</h1>
+        <h1>TecnoMundo</h1>
 
         <nav>
             <ul>
