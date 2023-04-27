@@ -1,0 +1,13 @@
+.imgCarrito{
+    width: 4rem;
+    margin-right: 0.7rem;
+}
+
+.carrito{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 3rem;
+    color: goldenrod;
+    
+}

@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px dashed goldenrod;
+}
+
+h1{
+    margin-left: 3rem;
+    color: goldenrod;
+    font-size: 2.3rem;
+}
+
+ul{
+    display: flex;
+
+}
+
+li{
+    display: inline-block;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    color:goldenrod;
+    font-size: 1.4rem;
+}
+
+li:hover{
+    text-decoration: underline;
+}

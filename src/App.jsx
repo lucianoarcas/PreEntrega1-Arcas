@@ -1,10 +1,16 @@
 import './App.css';
-import ProductCard from './componentes/product card/ProductCard';
+import ProductCard from './componentes/ProductCard/ProductCard';
+import NavBar from './componentes/NavBar/NavBar';
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
+
+
 function App() {
   return (
-    <div className="App">
+    <>
+      <NavBar/>
+      <ItemListContainer greeting="Encontrá las mejores OFERTAS!!"/>
       <ProductCard/>
-    </div>
+    </>
   );
 }
 
